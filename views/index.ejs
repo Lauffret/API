@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>REST API</title>
+        <link rel="stylesheet" href="bootstrap.min.css">
+    </head>
+    <body>
+        <div>
+            <h1> New Game</h1>
+            <form action="/game" method ="post">
+                <div>
+                    <label>Id : </label>
+                    <input type="text" name= "id"  id= "id" >
+                </div>
+                <div>
+                    <label>Nom : </label>
+                    <input type="text" name= "name" >
+                </div>
+                <div>
+                    <label>Dev : </label>
+                    <input type="text" name= "dev" >
+                </div>
+                <button>Create</button>
+            </form>
+        </div>
+    </body>
+</html>

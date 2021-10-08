@@ -1,0 +1,19 @@
+{
+    "games": [
+        {
+            "id": 1,
+            "name": "civ6",
+            "dev": "Firaxis Games"
+        },
+        {
+            "id": 2,
+            "name": "gta5",
+            "dev": "Rockstar North"
+        },
+        {
+            "id": 3,
+            "name": "home",
+            "dev": "test"
+        }
+    ]
+}
